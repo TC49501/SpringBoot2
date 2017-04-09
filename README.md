@@ -18,6 +18,12 @@ http://localhost:8080/employees/
 http://localhost:8080/employees/1
 ```
 
+#Deploy in cloud factory
+cf push rest-app-in-five-mins -p target/demo-0.0.1-SNAPSHOT.jar
+
+#Access public url
+https://rest-app-in-five-mins.cfapps.io
+
 Actuator provide different metrics
 http://localhost:8080/actuator
 /actuator/autoconfig/beans/configprops/dump/env/health/info/metrics/mappings/shutdown/trace/logfile/flyway/liquibase
