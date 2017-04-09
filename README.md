@@ -18,7 +18,7 @@ http://localhost:8080/employees/
 http://localhost:8080/employees/1
 ```
 
-#Deploy in cloud factory
+#Deploy in cloud foundry
 cf push rest-app-in-five-mins -p target/demo-0.0.1-SNAPSHOT.jar
 
 #Access public url
