@@ -27,3 +27,10 @@ https://rest-app-in-five-mins.cfapps.io
 Actuator provide different metrics
 http://localhost:8080/actuator
 /actuator/autoconfig/beans/configprops/dump/env/health/info/metrics/mappings/shutdown/trace/logfile/flyway/liquibase
+
+Equifax Interview problem
+Write a program that prints the number of services that respond with a "pong" to a ping request from this list of services: https://api.walletinsights.com/.
+Example: https://api.walletinsights.com/Accounting/ping -- responds with a "pong"
+Solution:
+https://www.interviewzen.com/interview/3N5bChC
+Program: HttpUrlPingPongTest.java
